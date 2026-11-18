@@ -1,0 +1,11 @@
+# Print a greeting message
+name = input("What is your name? \n")
+print(f"Hi, {name}. Welcome to Python!")
+
+# Calculate the product of a list of numbers
+numbers = [2, 4, 6, 8]
+product = 1
+for number in numbers:
+  product = product * number
+
+print("The product is:", product)
